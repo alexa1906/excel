@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Whisper&display=swap');
+@import "~normalize.css";
+
+@import "table.scss";
+@import "toolbar.scss";
+@import "formula.scss";
+@import "header.scss";
+
+@import "dashBoard.scss";
+
+$color: rgb(236, 230, 228);
+body{
+    background-color: $color;
+    font-family: 'Whisper', cursive;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.excel{
+    position: relative;
+    color: #888;
+    height: 100%;
+    max-width: 100%;
+    font-size: .8rem;
+}
